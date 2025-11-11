@@ -92,7 +92,7 @@ export default function Footer() {
                 >
                   <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
                   <div>
-                    <div className="font-semibold text-white">+33 1 23 45 67 89</div>
+                    <div className="font-semibold text-white">+33 6 58 96 65 87</div>
                     <div className="text-sm">{t('footer.contact.available')}</div>
                   </div>
                 </button>
@@ -100,7 +100,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-gray-400 dark:text-gray-300">
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <div className="font-semibold text-white">contact@presti-car.fr</div>
+                  <div className="font-semibold text-white">contact@taxi-paris.fr</div>
                   <div className="text-sm">{t('footer.contact.response')}</div>
                 </div>
               </li>
@@ -118,7 +118,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 dark:border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-gray-400 dark:text-gray-300 text-sm">
-              © {currentYear} {t('footer.company')}. {t('footer.rights')}
+              © {currentYear} TAXI PARIS. Tous droits réservés.
             </div>
             <div className="flex gap-6 text-sm">
               <a href="#" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
