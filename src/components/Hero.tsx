@@ -26,11 +26,8 @@ export default function Hero() {
               <img
                 src="/images/logo.webp"
                 alt="TAXI PARIS Logo"
-                className="w-48 h-48 object-contain mb-4"
+                className="w-48 h-48 object-contain"
               />
-              <p className="text-lg text-gray-600 dark:text-gray-300 text-center max-w-sm">
-                Service de transport professionnel en Île-de-France
-              </p>
             </div>
             <div className="inline-block">
               <span className="bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 px-4 py-2 rounded-full text-sm font-semibold">
