@@ -16,7 +16,7 @@ const resources = {
       // Hero
       "hero.title": "Professional Transportation Services",
       "hero.subtitle": "Premium Transportation Service in France",
-      "hero.description": "PRESTICAR offers professional drivers and high-end vehicles for all your travels in France. Book in a few clicks and travel in complete peace of mind.",
+      "hero.description": "TAXI PARIS offers professional drivers and high-end vehicles for all your travels in France. Book in a few clicks and travel in complete peace of mind.",
       "hero.cta": "Book a Ride",
       "hero.contact": "Contact Us",
       "hero.stats.available": "24/7",
@@ -73,8 +73,8 @@ const resources = {
       "features.flexiblePaymentDesc": "Several payment options available for your comfort",
 
       // Footer
-      "footer.company": "PRESTICAR",
-      "footer.description": "PRESTICAR - Your professional transportation service in France. Available 24/7 for all your travels.",
+      "footer.company": "TAXI PARIS",
+      "footer.description": "TAXI PARIS - Your professional transportation service in France. Available 24/7 for all your travels.",
       "footer.quickLinks": "Quick Links",
       "footer.contact": "Contact",
       "footer.followUs": "Follow Us",
@@ -116,7 +116,7 @@ const resources = {
       // Hero
       "hero.title": "Services de Transport Professionnels",
       "hero.subtitle": "Service de Transport Premium en France",
-      "hero.description": "PRESTICAR vous propose des chauffeurs professionnels et des véhicules haut de gamme pour tous vos déplacements en France. Réservez en quelques clics et voyagez en toute sérénité.",
+      "hero.description": "TAXI PARIS vous propose des chauffeurs professionnels et des véhicules haut de gamme pour tous vos déplacements en France. Réservez en quelques clics et voyagez en toute sérénité.",
       "hero.cta": "Réservez Votre Course",
       "hero.contact": "Nous contacter",
       "hero.stats.available": "24/7",
@@ -174,7 +174,7 @@ const resources = {
 
       // Footer
       "footer.company": "PRESTICAR",
-      "footer.description": "PRESTICAR - Votre service de transport professionnel en France. Disponible 24/7 pour tous vos déplacements.",
+      "footer.description": "TAXI PARIS - Votre service de transport professionnel en France. Disponible 24/7 pour tous vos déplacements.",
       "footer.quickLinks": "Liens Rapides",
       "footer.contact": "Contact",
       "footer.followUs": "Suivez-nous",

@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="space-y-4">
             <div className="text-3xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent tracking-wider">
-              PRESTICAR
+              TAXI PARIS
             </div>
             <p className="text-gray-400 dark:text-gray-300 leading-relaxed">
               {t('footer.description')}
