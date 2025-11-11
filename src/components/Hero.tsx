@@ -28,9 +28,6 @@ export default function Hero() {
                 alt="TAXI PARIS Logo"
                 className="w-48 h-48 object-contain mb-4"
               />
-              <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent mb-2">
-                TAXI PARIS
-              </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 text-center max-w-sm">
                 Service de transport professionnel en Île-de-France
               </p>
