@@ -39,11 +39,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex items-center">
-            <img
-              src="/images/logo.webp"
-              alt="TAXI PARIS Logo"
-              className="h-12 w-auto"
-            />
+            <div className="text-3xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent tracking-wider">
+              TAXI PARIS
+            </div>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -119,7 +117,7 @@ export default function Header() {
             </button>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-700 dark:text-white"
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
