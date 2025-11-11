@@ -21,6 +21,20 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
+            {/* Mobile logo display */}
+            <div className="lg:hidden flex flex-col items-center justify-center py-8">
+              <img
+                src="/images/logo.webp"
+                alt="TAXI PARIS Logo"
+                className="w-48 h-48 object-contain mb-4"
+              />
+              <h2 className="text-3xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent mb-2">
+                TAXI PARIS
+              </h2>
+              <p className="text-lg text-gray-600 dark:text-gray-300 text-center max-w-sm">
+                Service de transport professionnel en Île-de-France
+              </p>
+            </div>
             <div className="inline-block">
               <span className="bg-orange-100 dark:bg-orange-900/30 text-orange-700 dark:text-orange-300 px-4 py-2 rounded-full text-sm font-semibold">
                 {t('hero.subtitle')}
