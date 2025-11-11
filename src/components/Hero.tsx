@@ -85,13 +85,20 @@ export default function Hero() {
           </div>
 
           <div className="relative lg:block hidden">
-            <div className="relative w-full h-[600px] rounded-3xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-500">
-              <img
-                src="/images/logo.webp"
-                alt="PRESTICAR Logo"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div className="flex items-center justify-center w-full h-[600px] rounded-3xl bg-gradient-to-br from-orange-50 to-amber-50 dark:from-gray-800 dark:to-gray-900 shadow-2xl">
+              <div className="text-center">
+                <img
+                  src="/images/logo.webp"
+                  alt="TAXI PARIS Logo"
+                  className="w-80 h-80 object-contain mx-auto mb-8"
+                />
+                <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent mb-4">
+                  TAXI PARIS
+                </h2>
+                <p className="text-xl text-gray-600 dark:text-gray-300 max-w-md mx-auto">
+                  Service de transport professionnel en Île-de-France
+                </p>
+              </div>
             </div>
 
             <div className="absolute -bottom-6 -left-6 bg-white dark:bg-gray-800 p-6 rounded-2xl shadow-xl">
