@@ -104,7 +104,7 @@ export default function Hero() {
                   TAXI PARIS
                 </h2>
                 <p className="text-xl text-gray-600 dark:text-gray-300 max-w-md mx-auto">
-                  Service de transport professionnel en Île-de-France
+                  
                 </p>
               </div>
             </div>
