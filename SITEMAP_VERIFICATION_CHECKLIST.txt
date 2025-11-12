@@ -1,0 +1,82 @@
+SITEMAP VERIFICATION CHECKLIST
+================================
+
+✅ SITEMAP URL TO CHECK:
+https://taxiparis.org/sitemap.xml
+
+WHAT YOU SHOULD SEE:
+===================
+
+When you visit https://taxiparis.org/sitemap.xml in your browser, you should see:
+
+1. XML Structure:
+   - <?xml version="1.0" encoding="UTF-8"?>
+   - <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   - Multiple <url> entries for different taxi services
+
+2. Key Pages in Sitemap:
+   - Homepage (priority 1.0)
+   - Airport transfers (CDG, Orly, Le Bourget) - high priority
+   - Train stations (Gare du Nord, Lyon, Montparnasse)
+   - 24h taxi service
+   - VTC Paris services
+   - General Île-de-France service pages
+
+3. Each URL should have:
+   - <loc> (location/URL)
+   - <lastmod> (last modified date: 2025-11-12)
+   - <changefreq> (update frequency)
+   - <priority> (importance: 0.3 to 1.0)
+
+GOOGLE SEARCH CONSOLE STEPS:
+============================
+
+1. SUBMIT SITEMAP:
+   - Go to Google Search Console
+   - Select your taxiparis.org property
+   - Click "Sitemaps" in left menu
+   - Click "Add a new sitemap"
+   - Enter: sitemap.xml
+   - Click "Submit"
+
+2. VERIFY SUBMISSION:
+   - Sitemap should appear in the list
+   - Status: "Success" (green checkmark)
+   - Should show number of URLs discovered
+   - No errors or warnings
+
+3. CHECK COVERAGE:
+   - Go to "Coverage" in left menu
+   - See how many pages are indexed
+   - Check for any crawl errors
+
+EXPECTED RESULTS:
+================
+
+After 24-48 hours, you should see:
+✅ All main pages indexed
+✅ No crawl errors
+✅ Sitemap processed successfully
+✅ URLs appearing in search results for taxi-related queries
+
+COMMON ISSUES TO WATCH FOR:
+==========================
+
+❌ "Couldn't fetch" - Server issue, check if site is accessible
+❌ "Couldn't parse" - XML syntax error (shouldn't happen with our file)
+❌ "Invalid URL" - URL format issues
+❌ "HTTP Error" - Server configuration problems
+
+MONITORING:
+==========
+- Check weekly for new indexed pages
+- Monitor for any sitemap errors
+- Update sitemap when adding new pages
+- Watch for search performance improvements
+
+Your sitemap is optimized for:
+- Paris taxi services
+- Airport transfers
+- 24h availability
+- Local Île-de-France coverage
+- High-value service pages
