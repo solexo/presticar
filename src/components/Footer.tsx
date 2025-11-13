@@ -1,7 +1,11 @@
-import { Phone, Mail, MapPin, Facebook, Twitter, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-export default function Footer() {
+interface FooterProps {
+  onOpenModal: (modal: string) => void;
+}
+
+export default function Footer({ onOpenModal }: FooterProps) {
   const { t, i18n } = useTranslation();
   const currentYear = new Date().getFullYear();
 
@@ -25,22 +29,12 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="#"
-                className="bg-gray-800 dark:bg-gray-700 p-3 rounded-full hover:bg-orange-600 transition-colors duration-300"
+                href="https://www.instagram.com/taxiparipro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-full hover:from-purple-600 hover:to-pink-600 transition-colors duration-300"
               >
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="bg-gray-800 dark:bg-gray-700 p-3 rounded-full hover:bg-orange-600 transition-colors duration-300"
-              >
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="bg-gray-800 dark:bg-gray-700 p-3 rounded-full hover:bg-orange-600 transition-colors duration-300"
-              >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-5 h-5 text-white" />
               </a>
             </div>
           </div>
@@ -92,7 +86,7 @@ export default function Footer() {
                 >
                   <Phone className="w-5 h-5 mt-1 flex-shrink-0" />
                   <div>
-                    <div className="font-semibold text-white">+33 6 58 96 65 87</div>
+                    <div className="font-semibold text-white">+33658966587</div>
                     <div className="text-sm">{t('footer.contact.available')}</div>
                   </div>
                 </button>
@@ -100,7 +94,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 text-gray-400 dark:text-gray-300">
                 <Mail className="w-5 h-5 mt-1 flex-shrink-0" />
                 <div>
-                  <div className="font-semibold text-white">contact@taxi-paris.fr</div>
+                  <div className="font-semibold text-white">Paristaxipro@gmail.com</div>
                   <div className="text-sm">{t('footer.contact.response')}</div>
                 </div>
               </li>
@@ -121,15 +115,24 @@ export default function Footer() {
               © {currentYear} TAXI PARIS. Tous droits réservés.
             </div>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+              <button
+                onClick={() => onOpenModal('legal')}
+                className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors"
+              >
                 {t('footer.legal')}
-              </a>
-              <a href="#" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+              </button>
+              <button
+                onClick={() => onOpenModal('privacy')}
+                className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors"
+              >
                 {t('footer.privacy')}
-              </a>
-              <a href="#" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+              </button>
+              <button
+                onClick={() => onOpenModal('terms')}
+                className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors"
+              >
                 {t('footer.terms')}
-              </a>
+              </button>
             </div>
           </div>
         </div>
