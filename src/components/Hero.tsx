@@ -99,6 +99,7 @@ export default function Hero() {
                   src="/images/logo.webp"
                   alt="TAXI PARIS Logo"
                   className="w-80 h-80 object-contain mx-auto mb-8"
+                  fetchPriority="high"
                 />
                 <h2 className="text-4xl font-bold bg-gradient-to-r from-amber-500 to-orange-600 bg-clip-text text-transparent mb-4">
                   TAXI PARIS
