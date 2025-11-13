@@ -5,7 +5,6 @@ import Services from './components/Services';
 import Features from './components/Features';
 import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
-import LegalNotice from './components/LegalNotice';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndConditions from './components/TermsAndConditions';
 
@@ -23,7 +22,6 @@ function App() {
       <Features />
       <BookingForm />
       <Footer onOpenModal={openModal} />
-      <LegalNotice isOpen={activeModal === 'legal'} onClose={closeModal} />
       <PrivacyPolicy isOpen={activeModal === 'privacy'} onClose={closeModal} />
       <TermsAndConditions isOpen={activeModal === 'terms'} onClose={closeModal} />
     </div>

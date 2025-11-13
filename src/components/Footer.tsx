@@ -116,12 +116,6 @@ export default function Footer({ onOpenModal }: FooterProps) {
             </div>
             <div className="flex gap-6 text-sm">
               <button
-                onClick={() => onOpenModal('legal')}
-                className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors"
-              >
-                {t('footer.legal')}
-              </button>
-              <button
                 onClick={() => onOpenModal('privacy')}
                 className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors"
               >
