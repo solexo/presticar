@@ -32,6 +32,7 @@ export default function Footer({ onOpenModal }: FooterProps) {
                 href="https://www.instagram.com/taxiparipro"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Suivez-nous sur Instagram"
                 className="bg-gradient-to-r from-purple-500 to-pink-500 p-3 rounded-full hover:from-purple-600 hover:to-pink-600 transition-colors duration-300"
               >
                 <Instagram className="w-5 h-5 text-white" />

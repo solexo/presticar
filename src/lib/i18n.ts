@@ -14,9 +14,9 @@ const resources = {
       "nav.call": "Call",
 
       // Hero
-      "hero.title": "Professional Transportation Services",
-      "hero.subtitle": "Premium Transportation Service in France",
-      "hero.description": "TAXI PARIS offers professional drivers and high-end vehicles for all your travels in France. Book in a few clicks and travel in complete peace of mind.",
+      "hero.title": "Taxi Paris VTC - Réservation Chauffeur Privé 24/7",
+      "hero.subtitle": "Service Taxi VTC Premium en Île-de-France",
+      "hero.description": "TAXI PARIS propose des chauffeurs professionnels et des véhicules haut de gamme pour tous vos déplacements en Île-de-France. Réservez taxi Paris, VTC Paris, transport aéroport, taxi gare en quelques clics.",
       "hero.cta": "Book a Ride",
       "hero.contact": "Contact Us",
       "hero.stats.available": "24/7",
@@ -114,9 +114,9 @@ const resources = {
       "nav.call": "Appeler",
 
       // Hero
-      "hero.title": "Services de Transport Professionnels",
-      "hero.subtitle": "Service de Transport Premium en France",
-      "hero.description": "TAXI PARIS vous propose des chauffeurs professionnels et des véhicules haut de gamme pour tous vos déplacements en France. Réservez en quelques clics et voyagez en toute sérénité.",
+      "hero.title": "Taxi Paris VTC - Réservation Chauffeur Privé 24/7",
+      "hero.subtitle": "Service Taxi VTC Premium en Île-de-France",
+      "hero.description": "TAXI PARIS propose des chauffeurs professionnels et des véhicules haut de gamme pour tous vos déplacements en Île-de-France. Réservez taxi Paris, VTC Paris, transport aéroport, taxi gare en quelques clics.",
       "hero.cta": "Réservez Votre Course",
       "hero.contact": "Nous contacter",
       "hero.stats.available": "24/7",

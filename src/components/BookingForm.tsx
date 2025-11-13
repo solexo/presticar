@@ -131,12 +131,13 @@ Date: ${formData.pickup_date || 'À préciser'}`;
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                <label htmlFor="customer_name" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                   <User className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                   {t('booking.name')}
                 </label>
                 <input
                   type="text"
+                  id="customer_name"
                   name="customer_name"
                   value={formData.customer_name}
                   onChange={handleChange}
@@ -147,12 +148,13 @@ Date: ${formData.pickup_date || 'À préciser'}`;
               </div>
 
               <div>
-                <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                <label htmlFor="customer_phone" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                   <Phone className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                   {t('booking.phone')}
                 </label>
                 <input
                   type="tel"
+                  id="customer_phone"
                   name="customer_phone"
                   value={formData.customer_phone}
                   onChange={handleChange}
@@ -164,12 +166,13 @@ Date: ${formData.pickup_date || 'À préciser'}`;
             </div>
 
             <div>
-              <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+              <label htmlFor="pickup_location" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                 <MapPin className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                 {t('booking.pickup')}
               </label>
               <input
                 type="text"
+                id="pickup_location"
                 name="pickup_location"
                 value={formData.pickup_location}
                 onChange={handleChange}
@@ -180,12 +183,13 @@ Date: ${formData.pickup_date || 'À préciser'}`;
             </div>
 
             <div>
-              <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+              <label htmlFor="dropoff_location" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                 <MapPin className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                 {t('booking.dropoff')}
               </label>
               <input
                 type="text"
+                id="dropoff_location"
                 name="dropoff_location"
                 value={formData.dropoff_location}
                 onChange={handleChange}
@@ -197,12 +201,13 @@ Date: ${formData.pickup_date || 'À préciser'}`;
 
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                <label htmlFor="pickup_date" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                   <Calendar className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                   {t('booking.date')}
                 </label>
                 <input
                   type="datetime-local"
+                  id="pickup_date"
                   name="pickup_date"
                   value={formData.pickup_date}
                   onChange={handleChange}
@@ -212,11 +217,12 @@ Date: ${formData.pickup_date || 'À préciser'}`;
               </div>
 
               <div>
-                <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+                <label htmlFor="category" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                   <MessageSquare className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                   {t('booking.category')}
                 </label>
                 <select
+                  id="category"
                   name="category"
                   value={formData.category}
                   onChange={handleChange}
@@ -234,11 +240,12 @@ Date: ${formData.pickup_date || 'À préciser'}`;
             </div>
 
             <div>
-              <label className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
+              <label htmlFor="notes" className="flex items-center gap-2 text-gray-700 dark:text-gray-300 font-semibold mb-2">
                 <MessageSquare className="w-5 h-5 text-orange-600 dark:text-orange-400" />
                 {t('booking.notes')}
               </label>
               <textarea
+                id="notes"
                 name="notes"
                 value={formData.notes}
                 onChange={handleChange}
@@ -274,7 +281,7 @@ Date: ${formData.pickup_date || 'À préciser'}`;
                 <button
                   type="button"
                   onClick={handleWhatsAppBooking}
-                  className="flex items-center justify-center gap-2 bg-green-600 text-white py-3 rounded-xl font-semibold hover:bg-green-700 dark:hover:bg-green-500 transition-all duration-300 shadow-md hover:shadow-lg"
+                  className="flex items-center justify-center gap-2 bg-green-700 text-white py-3 rounded-xl font-semibold hover:bg-green-800 transition-all duration-300 shadow-md hover:shadow-lg"
                 >
                   <Phone className="w-5 h-5" />
                   {t('booking.whatsapp.booking')}
@@ -283,7 +290,7 @@ Date: ${formData.pickup_date || 'À préciser'}`;
                 <button
                   type="button"
                   onClick={handleWhatsAppInfo}
-                  className="flex items-center justify-center gap-2 border-2 border-green-600 text-green-600 dark:text-green-400 dark:border-green-400 py-3 rounded-xl font-semibold hover:bg-green-600 hover:text-white dark:hover:bg-green-400 dark:hover:text-gray-900 transition-all duration-300"
+                  className="flex items-center justify-center gap-2 border-2 border-green-700 text-green-700 py-3 rounded-xl font-semibold hover:bg-green-700 hover:text-white transition-all duration-300"
                 >
                   <MessageSquare className="w-5 h-5" />
                   {t('booking.whatsapp.info')}
