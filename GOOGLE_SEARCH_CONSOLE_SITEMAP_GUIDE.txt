@@ -1,0 +1,63 @@
+GOOGLE SEARCH CONSOLE - SITEMAP SUBMISSION GUIDE
+==================================================
+
+To submit your sitemap to Google Search Console:
+
+STEP 1: Access Google Search Console
+-----------------------------------
+1. Go to https://search.google.com/search-console/
+2. Sign in with your Google account
+3. Select your taxiparis.org property
+
+STEP 2: Submit Sitemap
+---------------------
+1. In the left sidebar, click "Sitemaps"
+2. Click "Add a new sitemap" (red button)
+3. Enter: sitemap.xml
+4. Click "Submit"
+
+STEP 3: Verify Submission
+-------------------------
+1. After submission, the sitemap will appear in the list
+2. Status should show "Success" (green checkmark)
+3. You can click on the sitemap to see details:
+   - Number of URLs discovered
+   - Number of URLs indexed
+   - Any errors or warnings
+
+STEP 4: Monitor Progress
+-----------------------
+- Check regularly for indexing status
+- Google may take 24-48 hours to process all URLs
+- Monitor for any crawl errors in the "Coverage" section
+
+YOUR SITEMAP URL:
+================
+https://taxiparis.org/sitemap.xml
+
+ADDITIONAL STEPS FOR BETTER SEO:
+================================
+
+1. **Request Indexing**: Use the URL Inspection tool in Search Console to request indexing of important pages
+
+2. **Monitor Performance**: Check the "Performance" tab for search queries and click-through rates
+
+3. **Submit New URLs**: As you create new pages, add them to your sitemap and submit again
+
+4. **Check Mobile Usability**: Use the "Mobile Usability" report to ensure your site works well on mobile devices
+
+IMPORTANT NOTES:
+===============
+- The sitemap contains 20+ optimized pages for taxi services in Paris
+- High-priority pages like airport transfers will be crawled first
+- The sitemap includes all major taxi service keywords: Paris, CDG, Orly, 24h service
+- Regular sitemap updates will help Google discover new content faster
+
+STATUS CHECK:
+============
+After submitting, you should see:
+✅ Sitemap submitted successfully
+✅ No errors in the sitemap report
+✅ URLs being discovered and indexed over time
+
+If you encounter any issues, check the "Sitemaps" report for specific error messages.
