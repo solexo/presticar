@@ -1,18 +1,20 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // Mock Supabase client for static website
 export const supabase = {
-  from: (table: string) => ({
-    select: (columns: string) => ({
-      order: (column: string, options: any) => Promise.resolve({
+  from: (_table: string) => ({
+    select: (_columns: string) => ({
+      order: (_column: string, _options: any) => Promise.resolve({
         data: getMockCategories(),
         error: null
       })
     }),
-    insert: (data: any) => Promise.resolve({
+    insert: (_data: any) => Promise.resolve({
       data: null,
       error: null
     })
   })
 };
+/* eslint-enable @typescript-eslint/no-explicit-any */
 
 // Mock data for categories
 function getMockCategories() {
