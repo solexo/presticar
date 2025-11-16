@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 interface FooterProps {
@@ -44,24 +45,24 @@ export default function Footer({ onOpenModal }: FooterProps) {
             <h3 className="text-xl font-bold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#accueil" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+                <Link to="/" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
                   {t('nav.home')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#services" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+                <Link to="/services" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
                   {t('nav.services')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#reserver" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+                <Link to="/booking" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
                   {t('nav.booking')}
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
+                <Link to="/contact" className="text-gray-400 dark:text-gray-300 hover:text-orange-500 transition-colors">
                   {t('nav.contact')}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

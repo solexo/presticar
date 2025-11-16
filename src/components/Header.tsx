@@ -1,5 +1,6 @@
 import { Phone, Menu, X, Moon, Sun } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 
 export default function Header() {
@@ -69,18 +70,18 @@ export default function Header() {
             >
               {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </button>
-            <a href="#accueil" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
+            <Link to="/" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
               {t('nav.home')}
-            </a>
-            <a href="#services" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
+            </Link>
+            <Link to="/services" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
               {t('nav.services')}
-            </a>
-            <a href="#reserver" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
+            </Link>
+            <Link to="/booking" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
               {t('nav.booking')}
-            </a>
-            <a href="#contact" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
+            </Link>
+            <Link to="/contact" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
               {t('nav.contact')}
-            </a>
+            </Link>
             <button
               onClick={handleWhatsAppCall}
               className="flex items-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 text-white px-6 py-3 rounded-full hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
@@ -127,34 +128,34 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200 dark:border-gray-700">
             <nav className="flex flex-col space-y-4">
-              <a
-                href="#accueil"
+              <Link
+                to="/"
                 className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.home')}
-              </a>
-              <a
-                href="#services"
+              </Link>
+              <Link
+                to="/services"
                 className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.services')}
-              </a>
-              <a
-                href="#reserver"
+              </Link>
+              <Link
+                to="/booking"
                 className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.booking')}
-              </a>
-              <a
-                href="#contact"
+              </Link>
+              <Link
+                to="/contact"
                 className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium px-4 py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.contact')}
-              </a>
+              </Link>
               <button
                 onClick={handleWhatsAppCall}
                 className="flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-orange-600 text-white px-6 py-3 rounded-full hover:from-amber-600 hover:to-orange-700 transition-all mx-4"
