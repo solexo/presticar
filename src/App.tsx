@@ -76,6 +76,7 @@ function App() {
         <Route path="/services" element={<MainPage />} />
         <Route path="/booking" element={<MainPage />} />
         <Route path="/contact" element={<MainPage />} />
+        <Route path="*" element={<MainPage />} />
       </Routes>
     </Router>
   );

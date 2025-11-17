@@ -54,11 +54,14 @@
 # RewriteCond %{HTTPS} off
 # RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# Clean URLs (remove .html extensions)
+# SPA routing fallback
 RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteRule ^favicon\.ico$ /images/logo.webp [L]
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
 
 # Redirect common taxi-related URLs to homepage sections
 RewriteRule ^taxi-paris$ / [R=301,L]
