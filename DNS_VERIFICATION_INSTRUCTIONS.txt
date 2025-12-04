@@ -1,0 +1,24 @@
+GOOGLE SITE VERIFICATION TXT RECORD INSTRUCTIONS
+==============================================
+
+To complete the site verification for taxiparis.org, you need to add a TXT record at your DNS provider.
+
+TXT Record Details:
+------------------
+Name/Host: @
+Value: google-site-verification=FQHfaCsIKGKiJf9H5DVKjcWIU80d-2GDNvEj4xYXhXs
+
+Instructions:
+------------
+1. Log into your domain registrar control panel (where you bought taxiparis.org)
+2. Go to DNS Management or DNS Settings
+3. Add a new TXT record with:
+   - Name/Host: @ (or leave blank, or put taxiparis.org)
+   - Value: google-site-verification=FQHfaCsIKGKiJf9H5DVKjcWIU80d-2GDNvEj4xYXhXs
+   - TTL: 3600 (or default)
+
+4. Save the changes
+5. Wait 15 minutes to 24 hours for DNS propagation
+6. Return to Google Search Console and click "Verify" again
+
+Note: The HTML meta tag has also been added to your website as a backup verification method.
