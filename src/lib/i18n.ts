@@ -45,6 +45,8 @@ const resources = {
       "booking.dropoff": "Drop-off Address",
       "booking.dropoff.placeholder": "Complete drop-off address",
       "booking.date": "Date and Time",
+      "booking.date.placeholder": "Select date and time",
+      "booking.time": "Time",
       "booking.category": "Vehicle Category",
       "booking.category.placeholder": "Select a category",
       "booking.notes": "Additional Notes (optional)",
@@ -98,6 +100,17 @@ const resources = {
       "stats.satisfaction": "Customer Satisfaction",
       "stats.rides": "Rides Completed",
 
+      // Reviews
+      "reviews.title": "Customer Reviews",
+      "reviews.subtitle": "See what our customers say about their experience with PrestiCar",
+      "reviews.leaveReview": "Leave a Review",
+      "reviews.review1.name": "Marie Dupont",
+      "reviews.review1.text": "Excellent service! The driver was punctual and very professional. Highly recommend for airport transfers.",
+      "reviews.review2.name": "Jean-Pierre Martin",
+      "reviews.review2.text": "Great experience with PrestiCar. Clean car, friendly driver, and smooth ride. Will use again.",
+      "reviews.review3.name": "Sophie Laurent",
+      "reviews.review3.text": "Very reliable taxi service. Driver arrived on time and the booking process was easy.",
+
       // Language
       "lang.fr": "Français",
       "lang.en": "English"
@@ -145,6 +158,8 @@ const resources = {
       "booking.dropoff": "Adresse d'arrivée",
       "booking.dropoff.placeholder": "Adresse complète d'arrivée",
       "booking.date": "Date et heure",
+      "booking.date.placeholder": "Sélectionnez date et heure",
+      "booking.time": "Heure",
       "booking.category": "Catégorie de véhicule",
       "booking.category.placeholder": "Sélectionnez une catégorie",
       "booking.notes": "Notes additionnelles (optionnel)",
@@ -191,6 +206,17 @@ const resources = {
       "footer.legal": "Mentions légales",
       "footer.privacy": "Politique de confidentialité",
       "footer.terms": "CGV",
+
+      // Reviews
+      "reviews.title": "Avis Clients",
+      "reviews.subtitle": "Découvrez ce que disent nos clients sur leur expérience avec PrestiCar",
+      "reviews.leaveReview": "Laisser un Avis",
+      "reviews.review1.name": "Marie Dupont",
+      "reviews.review1.text": "Excellent service ! Le chauffeur était ponctuel et très professionnel. Je recommande vivement pour les transferts aéroport.",
+      "reviews.review2.name": "Jean-Pierre Martin",
+      "reviews.review2.text": "Excellente expérience avec PrestiCar. Voiture propre, chauffeur sympathique, et trajet fluide. Je recommencerai.",
+      "reviews.review3.name": "Sophie Laurent",
+      "reviews.review3.text": "Service de taxi très fiable. Le chauffeur est arrivé à l'heure et le processus de réservation était facile.",
 
       // Stats
       "stats.drivers": "Chauffeurs Pro",
