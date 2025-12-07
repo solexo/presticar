@@ -247,7 +247,7 @@ ${formData.notes ? `Notes: ${formData.notes}` : ''}`;
                   <option value="">{t('booking.category.placeholder')}</option>
                   {categories.map((cat) => (
                     <option key={cat.id} value={cat.name}>
-                      {cat.name}
+                      {t(`category.${cat.name.toLowerCase()}`, { defaultValue: cat.name })}
                     </option>
                   ))}
                 </select>
