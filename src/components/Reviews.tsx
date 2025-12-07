@@ -60,17 +60,6 @@ export default function Reviews() {
             </div>
           ))}
         </div>
-
-        <div className="text-center">
-          <a
-            href="https://g.page/r/Cf1WIoX-0pf1EBM/review"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-600 text-white font-semibold rounded-lg hover:from-amber-600 hover:to-orange-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-          >
-            {t('reviews.leaveReview')}
-          </a>
-        </div>
       </div>
     </section>
   );
