@@ -17,7 +17,7 @@ export default function Map() {
 
         <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden">
           <iframe
-            src="https://maps.google.com/maps?q=ycZkottGR6ubyP5C6&output=embed"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.2241,48.8156,2.4699,48.9022&layer=mapnik"
             width="100%"
             height="400"
             style={{ border: 0 }}
