@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Features from './components/Features';
+import Map from './components/Map';
 import Reviews from './components/Reviews';
 import BookingForm from './components/BookingForm';
 import Footer from './components/Footer';
@@ -60,6 +61,7 @@ function MainPage() {
       <Hero />
       <Services />
       <Features />
+      <Map />
       <Reviews />
       <BookingForm />
       <Footer onOpenModal={openModal} />

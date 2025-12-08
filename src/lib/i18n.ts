@@ -116,6 +116,10 @@ const resources = {
       "reviews.review3.name": "Sophie Laurent",
       "reviews.review3.text": "Very reliable taxi service. Driver arrived on time and the booking process was easy.",
 
+      // Map
+      "map.title": "Our Location",
+      "map.subtitle": "Find us on the map",
+
       // Language
       "lang.fr": "Français",
       "lang.en": "English"
@@ -227,6 +231,10 @@ const resources = {
       "reviews.review2.text": "Excellente expérience avec PrestiCar. Voiture propre, chauffeur sympathique, et trajet fluide. Je recommencerai.",
       "reviews.review3.name": "Sophie Laurent",
       "reviews.review3.text": "Service de taxi très fiable. Le chauffeur est arrivé à l'heure et le processus de réservation était facile.",
+
+      // Map
+      "map.title": "Notre Emplacement",
+      "map.subtitle": "Trouvez-nous sur la carte",
 
       // Stats
       "stats.drivers": "Chauffeurs Pro",
