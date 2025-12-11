@@ -8,6 +8,7 @@ const resources = {
       // Header
       "nav.home": "Home",
       "nav.services": "Services",
+      "nav.prices": "Prices",
       "nav.features": "Features",
       "nav.booking": "Book Now",
       "nav.contact": "Contact",
@@ -120,6 +121,12 @@ const resources = {
       "map.title": "Our Location",
       "map.subtitle": "Find us on the map",
 
+      // Prices
+      "prices.title": "Our Prices",
+      "prices.subtitle": "Transparent pricing for all your journeys",
+      "prices.perKm": "Rate per Kilometer",
+      "prices.note": "All prices include VAT. Rates are indicative and may vary depending on conditions.",
+
       // Language
       "lang.fr": "Français",
       "lang.en": "English"
@@ -130,6 +137,7 @@ const resources = {
       // Header
       "nav.home": "Accueil",
       "nav.services": "Services",
+      "nav.prices": "Tarifs",
       "nav.features": "Fonctionnalités",
       "nav.booking": "Réserver",
       "nav.contact": "Contact",
@@ -241,6 +249,12 @@ const resources = {
       "stats.service": "Service Non-Stop",
       "stats.satisfaction": "Satisfaction Client",
       "stats.rides": "Courses Réalisées",
+
+      // Prices
+      "prices.title": "Nos Tarifs",
+      "prices.subtitle": "Tarifs transparents pour tous vos déplacements",
+      "prices.perKm": "Tarif au Kilomètre",
+      "prices.note": "Prix TTC. Tarifs indicatifs, peuvent varier selon les conditions.",
 
       // Language
       "lang.fr": "Français",

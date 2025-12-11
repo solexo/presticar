@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
+import Prices from './components/Prices';
 import Features from './components/Features';
 import Map from './components/Map';
 import Reviews from './components/Reviews';
@@ -28,6 +29,9 @@ function ScrollToSection() {
       switch (path) {
         case '/services':
           targetId = '#services';
+          break;
+        case '/prices':
+          targetId = '#prices';
           break;
         case '/booking':
           targetId = '#reserver';
@@ -60,6 +64,7 @@ function MainPage() {
       <Header />
       <Hero />
       <Services />
+      <Prices />
       <Features />
       <Map />
       <Reviews />
@@ -78,6 +83,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/services" element={<MainPage />} />
+        <Route path="/prices" element={<MainPage />} />
         <Route path="/booking" element={<MainPage />} />
         <Route path="/contact" element={<MainPage />} />
         <Route path="*" element={<MainPage />} />

@@ -76,6 +76,9 @@ export default function Header() {
             <Link to="/services" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
               {t('nav.services')}
             </Link>
+            <Link to="/prices" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
+              {t('nav.prices')}
+            </Link>
             <Link to="/booking" className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium">
               {t('nav.booking')}
             </Link>
@@ -141,6 +144,13 @@ export default function Header() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 {t('nav.services')}
+              </Link>
+              <Link
+                to="/prices"
+                className="text-gray-700 dark:text-gray-300 hover:text-orange-600 dark:hover:text-orange-400 transition-colors font-medium px-4 py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {t('nav.prices')}
               </Link>
               <Link
                 to="/booking"
